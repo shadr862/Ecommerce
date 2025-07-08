@@ -6,7 +6,7 @@ A full-featured e-commerce application built using Angular for the frontend and 
 
 ## 📸 Project Preview
 
-![E-commerce Dashboard](https://raw.githubusercontent.com/shadr862/Ecommerce/main/images/dashboard.PNG)
+![E-commerce Dashboard](https://github.com/shadr862/Ecommerce/blob/main/images/ecommerce.PNG)
 
 > Replace the image link with your own dashboard screenshot.
 
