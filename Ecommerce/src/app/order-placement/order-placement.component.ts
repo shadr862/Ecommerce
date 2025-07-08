@@ -26,14 +26,14 @@ export class OrderPlacementComponent {
     private orderService: OrderService,
     private ProductService: ProductService,
     private Router: Router
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.userOrderForm = this.fb.group({
       name: ['', Validators.required],
       phoneNumber: ['', Validators.required],
-      status:['',Validators.required],
-      deliveryMethod:[{ value: '', disabled: true },Validators.required],
+      status: ['', Validators.required],
+      deliveryMethod: [{ value: '', disabled: true }, Validators.required],
       userId: [{ value: '', disabled: true }, Validators.required],
       address: this.fb.group({
         country: ['', Validators.required],
@@ -52,8 +52,8 @@ export class OrderPlacementComponent {
   populateForm() {
     this.userOrderForm.patchValue({
       userId: this.userId,
-      status:'Progress',
-      deliveryMethod:'Cash On Delivery',
+      status: 'Progress',
+      deliveryMethod: 'Cash On Delivery',
     });
 
     // Clear current orderedProducts FormArray
@@ -66,7 +66,7 @@ export class OrderPlacementComponent {
         category: [product.category, Validators.required],
         price: [product.price, [Validators.required, Validators.min(0)]],
         quantity: [product.quantity, [Validators.required, Validators.min(1)]],
-        thumbnail: [product.thumbnail, Validators.required],
+        thumbnail: [ product.thumbnail?.startsWith('/product-images')? `https://localhost:44355${product.thumbnail}`: product.thumbnail, Validators.required],
         productId: [product.id, Validators.required],
       }));
     });
