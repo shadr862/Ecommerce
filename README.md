@@ -7,33 +7,33 @@ A feature-rich e-commerce web application built with **Angular** and **ASP.NET C
 ## 📸 Project Preview
 
 ### 🔐 Login / Signup
-![Login Page](https://github.com/shadr862/Ecommerce/blob/main/images/login.png)
-![Signup Page](https://github.com/shadr862/Ecommerce/blob/main/images/signup.png)
+![Login Page](https://github.com/shadr862/Ecommerce/blob/main/images/login.PNG)
+![Signup Page](https://github.com/shadr862/Ecommerce/blob/main/images/signup.PNG)
 
 ### 🏠 Dashboard & Navigation
 ![Dashboard](https://github.com/shadr862/Ecommerce/blob/main/images/dashboard.PNG)
-![Sidebar](https://github.com/shadr862/Ecommerce/blob/main/images/sidebar.png)
+![Sidebar](https://github.com/shadr862/Ecommerce/blob/main/images/sidebar.PNG)
 
 ### 🛍️ Product Management
 - Add Product (with Image Upload)
 - Edit / Delete Product
-![Product List](https://github.com/shadr862/Ecommerce/blob/main/images/product-list.png)
-![Add Product](https://github.com/shadr862/Ecommerce/blob/main/images/add-product.png)
-![Edit Product](https://github.com/shadr862/Ecommerce/blob/main/images/edit-product.png)
+![Product List](https://github.com/shadr862/Ecommerce/blob/main/images/product-list.PNG)
+![Add Product](https://github.com/shadr862/Ecommerce/blob/main/images/add-product.PNG)
+![Edit Product](https://github.com/shadr862/Ecommerce/blob/main/images/edit-product.PNG)
 
 ### 📦 Order Management
 - Customer Order View
 - Admin Confirmed Orders
 - Order Detail View
-![Order Placement](https://github.com/shadr862/Ecommerce/blob/main/images/order-placement.png)
-![Order Detail](https://github.com/shadr862/Ecommerce/blob/main/images/order-detail.png)
-![Confirmed Orders](https://github.com/shadr862/Ecommerce/blob/main/images/confirmed-orders.png)
+![Order Placement](https://github.com/shadr862/Ecommerce/blob/main/images/order-placement.PNG)
+![Order Detail](https://github.com/shadr862/Ecommerce/blob/main/images/order-detail.PNG)
+![Confirmed Orders](https://github.com/shadr862/Ecommerce/blob/main/images/confirmed-orders.PNG)
 
 ### 👤 User Profile & List
 - Customer Profile
 - Admin User List
-![User Profile](https://github.com/shadr862/Ecommerce/blob/main/images/user-profile.png)
-![User List](https://github.com/shadr862/Ecommerce/blob/main/images/user-list.png)
+![User Profile](https://github.com/shadr862/Ecommerce/blob/main/images/user-profile.PNG)
+![User List](https://github.com/shadr862/Ecommerce/blob/main/images/user-list.PNG)
 
 ---
 
