@@ -20,7 +20,10 @@ export class ProductService {
   }
 
 
-
+  addProduct(product:any)
+  {
+     return this.http.post<any>('https://localhost:44355/api/app/product/with-image',product)
+  }
   getProducts() {
     return this.http.get<any>('https://localhost:44355/api/app/product');
   }

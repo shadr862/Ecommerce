@@ -1,7 +1,9 @@
 <div *ngIf="product" class="container mt-4">
   <div class="row">
     <div class="col-md-6">
-      <img [src]="product.thumbnail" class="img-fluid" [alt]="product.title">
+      <img [src]="product.thumbnail && product.thumbnail.startsWith('/product-images') ? 'https://localhost:44355' + product.thumbnail 
+                    : product.thumbnail " class="card-img-top fixed-image-size" [alt]="product.title" />
+
     </div>
 
     <div class="col-md-6 position-relative">

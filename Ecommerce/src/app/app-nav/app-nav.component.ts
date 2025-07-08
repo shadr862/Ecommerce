@@ -29,6 +29,7 @@ export class AppNavComponent implements OnInit {
   isCollapsed = false;
   showAllCategories = false;
   showDashboard = false;
+  showProducts=false;
 
   categories = [
     { name: 'Beauty', link: '/dashboard/category/beauty-products' },
@@ -73,6 +74,10 @@ export class AppNavComponent implements OnInit {
   }
   toggleAllDashboard(): void {
     this.showDashboard = !this.showDashboard;
+  }
+  toggleAllProducts()
+  {
+    this.showProducts=!this.showProducts;
   }
 
   logout() {

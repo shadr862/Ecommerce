@@ -1,0 +1,47 @@
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data" class="card p-3 shadow-sm">
+
+  <!-- Thumbnail preview -->
+  <div class="text-center mb-3">
+    <img [src]="previewUrl || 'https://via.placeholder.com/300x200?text=Thumbnail'" class="img-fluid rounded"
+      style="max-height: 200px; object-fit: contain;" />
+  </div>
+
+  <!-- File Upload -->
+  <div class="mb-3">
+    <label class="form-label fw-bold">Product Image</label>
+    <input type="file" accept="image/*" class="form-control" (change)="onFileSelected($event)" />
+  </div>
+
+  <!-- Form Fields -->
+  <div class="mb-2">
+    <label class="form-label">Title</label>
+    <input formControlName="title" class="form-control" />
+  </div>
+
+  <div class="mb-2">
+    <label class="form-label">Description</label>
+    <textarea formControlName="description" class="form-control"></textarea>
+  </div>
+
+  <div class="mb-2">
+    <label class="form-label">Category</label>
+    <input formControlName="category" class="form-control" />
+  </div>
+
+  <div class="mb-2">
+    <label class="form-label">Price</label>
+    <input type="number" formControlName="price" class="form-control" />
+  </div>
+
+  <div class="mb-2">
+    <label class="form-label">Stock</label>
+    <input type="number" formControlName="stock" class="form-control" />
+  </div>
+
+  <div class="mb-2">
+    <label class="form-label">Quantity</label>
+    <input type="number" formControlName="quantity" class="form-control" />
+  </div>
+
+  <button type="submit" class="btn btn-success mt-3" [disabled]="productForm.invalid">Add Product</button>
+</form>

@@ -6,6 +6,8 @@ using Volo.Abp.Application.Services;
 using Volo.Abp.Domain.Repositories;
 using System.Linq;
 using System.Collections.Generic;
+using System.IO;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Acme.Ecommerce.Products
 {
@@ -17,6 +19,37 @@ namespace Acme.Ecommerce.Products
         public ProductAppService(IRepository<Product, Guid> repository) : base(repository)
         {
             _repository = repository;
+        }
+        public async Task<ProductDto> CreateWithImageAsync([FromForm] CreateProductWithImageDto input)
+        {
+            var product = new Product
+            {
+                Title = input.Title,
+                Description = input.Description,
+                Category = input.Category,
+                Price = input.Price,
+                Stock = input.Stock,
+                Quantity = input.Quantity
+            };
+
+            // Save image to wwwroot/product-images  
+            if (input.ThumbnailImage != null && input.ThumbnailImage.Length > 0)
+            {
+                var fileName = $"{Guid.NewGuid()}{Path.GetExtension(input.ThumbnailImage.FileName)}";
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "product-images", fileName);
+
+                Directory.CreateDirectory(Path.GetDirectoryName(imagePath)!); // Ensure folder exists  
+
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    await input.ThumbnailImage.CopyToAsync(stream);
+                }
+
+                product.Thumbnail = $"/product-images/{fileName}"; // Relative path for frontend use  
+            }
+
+            await _repository.InsertAsync(product);
+            return ObjectMapper.Map<Product, ProductDto>(product);
         }
 
         public async Task<List<ProductDto>> GetBeautyProduct()

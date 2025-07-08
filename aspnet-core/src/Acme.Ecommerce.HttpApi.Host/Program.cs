@@ -42,6 +42,7 @@ namespace Acme.Ecommerce
                 {
                     app.UseDeveloperExceptionPage();
                 }
+                app.UseStaticFiles(); 
 
                 await app.InitializeApplicationAsync();
                 await app.RunAsync();

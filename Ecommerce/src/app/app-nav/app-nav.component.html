@@ -1,43 +1,46 @@
 <div class="sidenav-container" [class.sidebar-collapsed]="isCollapsed">
-
   <div class="sidenav-wrapper d-flex">
-
-    <!-- Side Navigation (sidebar slides) -->
+    
+    <!-- Sidebar -->
     <nav class="sidenav" [class.collapsed]="isCollapsed">
       <div class="toolbar">
         <span class="menu-label">Menu</span>
       </div>
+
+      <!-- Dashboard Section -->
       <div class="category-toggle" (click)="toggleAllDashboard()">
-        <i class="fas fa-tachometer-alt" style="margin-right: 8px;"></i>
-        Dashboard ▾
+        <i class="fas fa-tachometer-alt"></i>
+        <span>Dashboard</span> ▾
       </div>
       <div *ngIf="showDashboard" class="category-list">
-        <a *ngIf="authService.isLoggedIn" routerLink="/dashboard/profile">User profile</a>
+        <a *ngIf="authService.isLoggedIn" routerLink="/dashboard/profile">User Profile</a>
         <a *ngIf="authService.isAdmin" routerLink="/dashboard/user-list">User List</a>
         <a *ngIf="authService.isAdmin" routerLink="/dashboard/orderedList">Order Confirmed List</a>
       </div>
 
-
-      <a routerLink="/dashboard">
-        <i class="fas fa-box-open" style="margin-right: 8px;"></i>
-        Products
-      </a>
-      <!-- Category Toggle Button -->
-      <div class="category-toggle" (click)="toggleAllCategories()">
-        <i class="fas fa-list" style="margin-right: 8px;"></i>
-        Categories ▾
+      <!-- Product Section -->
+      <div class="category-toggle" (click)="toggleAllProducts()">
+        <i class="fas fa-box-open"></i>
+        <span>Products</span> ▾
+      </div>
+      <div *ngIf="showProducts" class="category-list">
+        <a routerLink="/dashboard/products">All Products</a>
+        <a routerLink="/dashboard/products/add">Add Product</a>
       </div>
 
-      <!-- Category Links (List shown when expanded) -->
+      <!-- Category Section -->
+      <div class="category-toggle" (click)="toggleAllCategories()">
+        <i class="fas fa-list"></i>
+        <span>Categories</span> ▾
+      </div>
       <div *ngIf="showAllCategories" class="category-list">
         <a *ngFor="let category of categories" [routerLink]="category.link">
           {{ category.name }}
         </a>
       </div>
-
     </nav>
 
-    <!-- Main Content -->
+    <!-- Main Content Area -->
     <div class="main-content">
       <header class="header">
         <div class="title d-flex align-items-center">
@@ -51,7 +54,7 @@
 
         <div class="auth">
           <span *ngIf="authService.isLoggedIn">Welcome,</span>
-          <a [routerLink]="'/dashboard/profile'" style="text-decoration: none;">
+          <a [routerLink]="'/dashboard/profile'" class="username">
             <span *ngIf="authService.isLoggedIn">{{ authService.firstName }}</span>
           </a>
           <button *ngIf="!authService.isLoggedIn" [routerLink]="'/login'">Login</button>
@@ -65,5 +68,4 @@
     </div>
 
   </div>
-
 </div>

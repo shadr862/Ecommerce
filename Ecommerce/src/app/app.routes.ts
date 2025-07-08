@@ -12,27 +12,29 @@ import { OrderConfirmedListComponent } from './order-confirmed-list/order-confir
 import { UserListComponent } from './user-list/user-list.component';
 import { canActivateAdminGuard } from './guards/can-activate-admin.guard';
 import { canActivateGuard } from './guards/can-activate.guard';
+import { AddProductComponent } from './products/add-product/add-product.component';
 
 export const routes: Routes = [
   {
     path: 'dashboard',
     component: AppNavComponent,
     children: [
-      { path: 'products/:id', component: DetailProductReviewComponent},
-      {path: 'products', loadChildren: () => import('./products/products.route').then(m => m.productsRoute)},
-      {path: 'category', loadChildren: () => import('./category/category.routes').then(m => m.categoryRoutes)},
-      {path: 'search',component:SearchProductComponent},
-      {path: 'order',component:OrderPlacementComponent,canActivate:[canActivateGuard]},
-      {path: 'profile',component:UserProfileComponent,canActivate:[canActivateGuard]},
-      {path: 'ordered-product-dispaly', component:OrderedProductDispalyComponent,canActivate:[canActivateGuard]},
-      {path: 'orderedList',component:OrderConfirmedListComponent,canActivate:[canActivateAdminGuard]},
-      {path: 'user-list' ,component:UserListComponent,canActivate:[canActivateAdminGuard]},
-      {path: '', redirectTo: 'products', pathMatch: 'full' }
+      { path: 'products/add' ,component:AddProductComponent },
+      { path: 'products/:id', component: DetailProductReviewComponent },
+      { path: 'products', loadChildren: () => import('./products/products.route').then(m => m.productsRoute) },
+      { path: 'category', loadChildren: () => import('./category/category.routes').then(m => m.categoryRoutes) },
+      { path: 'search', component: SearchProductComponent },
+      { path: 'order', component: OrderPlacementComponent, canActivate: [canActivateGuard] },
+      { path: 'profile', component: UserProfileComponent, canActivate: [canActivateGuard] },
+      { path: 'ordered-product-dispaly', component: OrderedProductDispalyComponent, canActivate: [canActivateGuard] },
+      { path: 'orderedList', component: OrderConfirmedListComponent, canActivate: [canActivateAdminGuard] },
+      { path: 'user-list', component: UserListComponent, canActivate: [canActivateAdminGuard] },
+      { path: '', redirectTo: 'products', pathMatch: 'full' }
     ]
   },
-  {path:'login',component:LoginComponent},
-  {path:'signup',component:SignupComponent},
+  { path: 'login', component: LoginComponent },
+  { path: 'signup', component: SignupComponent },
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-  {path:'**', redirectTo: 'dashboard', pathMatch: 'full'}
-  
+  { path: '**', redirectTo: 'dashboard', pathMatch: 'full' }
+
 ];
