@@ -11,7 +11,7 @@ A feature-rich e-commerce web application built with **Angular** and **ASP.NET C
 ![Signup Page](https://github.com/shadr862/Ecommerce/blob/main/images/signup.png)
 
 ### 🏠 Dashboard & Navigation
-![Dashboard](https://github.com/shadr862/Ecommerce/blob/main/images/dashboard.png)
+![Dashboard](https://github.com/shadr862/Ecommerce/blob/main/images/dashboard.PNG)
 ![Sidebar](https://github.com/shadr862/Ecommerce/blob/main/images/sidebar.png)
 
 ### 🛍️ Product Management
