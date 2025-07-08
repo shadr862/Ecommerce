@@ -1,62 +1,83 @@
 # 🛒 E-commerce Platform
 
-A full-featured e-commerce application built using Angular for the frontend and ASP.NET Core (ABP Framework) for the backend. It supports both admin and customer roles with secure authentication, product management, cart operations, and order processing.
+A feature-rich e-commerce web application built with **Angular** and **ASP.NET Core (ABP Framework)**. This project supports both **admin** and **customer** roles with secure login, product and order management, image upload, cart operations, and detailed order tracking.
 
 ---
 
 ## 📸 Project Preview
 
-![E-commerce Dashboard](https://github.com/shadr862/Ecommerce/blob/main/images/ecommerce.PNG)
+### 🔐 Login / Signup
+![Login Page](https://github.com/shadr862/Ecommerce/blob/main/images/login.png)
+![Signup Page](https://github.com/shadr862/Ecommerce/blob/main/images/signup.png)
 
-> Replace the image link with your own dashboard screenshot.
+### 🏠 Dashboard & Navigation
+![Dashboard](https://github.com/shadr862/Ecommerce/blob/main/images/dashboard.png)
+![Sidebar](https://github.com/shadr862/Ecommerce/blob/main/images/sidebar.png)
+
+### 🛍️ Product Management
+- Add Product (with Image Upload)
+- Edit / Delete Product
+![Product List](https://github.com/shadr862/Ecommerce/blob/main/images/product-list.png)
+![Add Product](https://github.com/shadr862/Ecommerce/blob/main/images/add-product.png)
+![Edit Product](https://github.com/shadr862/Ecommerce/blob/main/images/edit-product.png)
+
+### 📦 Order Management
+- Customer Order View
+- Admin Confirmed Orders
+- Order Detail View
+![Order Placement](https://github.com/shadr862/Ecommerce/blob/main/images/order-placement.png)
+![Order Detail](https://github.com/shadr862/Ecommerce/blob/main/images/order-detail.png)
+![Confirmed Orders](https://github.com/shadr862/Ecommerce/blob/main/images/confirmed-orders.png)
+
+### 👤 User Profile & List
+- Customer Profile
+- Admin User List
+![User Profile](https://github.com/shadr862/Ecommerce/blob/main/images/user-profile.png)
+![User List](https://github.com/shadr862/Ecommerce/blob/main/images/user-list.png)
 
 ---
 
-## 🔧 Features
+## 🚀 Features
 
 ### 👤 Customer Panel
-- Browse products by category
-- Add items to cart and manage orders
-- Secure login and profile management
-- View order history
+
+- Browse products by categories (e.g., beauty, groceries, furniture, clothing)
+- Add products to cart
+- Place orders with real-time status
+- View past orders and order details
+- View product reviews and ratings
 
 ### 🛠️ Admin Panel
-- Add, update, or delete products
-- Manage users and orders
-- View product inventory and sales analytics
 
-### 📦 Order & Cart
-- Add to cart, update quantity, remove items
-- Place orders with confirmation
-- View previous purchases
+- Add, update, and delete products (with image upload)
+- Manage user list and permissions
+- Confirm or update orders (edit, view detail)
+- View product inventory and sales status
+
+### 📦 Order Management
+
+- View all confirmed orders
+- Admin can update order status and shipping address
+- View individual order details
+- Filter orders by status (Confirmed, Pending, etc.)
 
 ### 🔐 Authentication
-- Role-based login (admin vs. customer)
+
+- Role-based login (Admin & Customer)
 - JWT token-based secured endpoints
+- Guards for protected Angular routes
 
 ---
 
-## 🛠️ Tech Stack
+## 📂 Project Structure
 
-- **Frontend**: Angular, TypeScript, Bootstrap
-- **Backend**: ASP.NET Core, ABP Framework, Entity Framework
-- **Database**: SQL Server
-- **Authentication**: JWT Token
-
----
-
-## 📂 Folder Structure
-
-- `api/` – ASP.NET Core backend (ABP Framework)
-- `angular/` – Angular frontend
-
----
-
-## 🚀 Getting Started
-
-> Make sure you have Node.js, Angular CLI, .NET SDK, and SQL Server installed.
-
-### 1. Clone the Repository
 ```bash
-git clone https://github.com/shadr862/Ecommerce.git
-cd Ecommerce
+Ecommerce/
+├── api/               # ASP.NET Core backend (ABP Framework)
+│   ├── Controllers/
+│   ├── Products/
+│   └── Orders/
+├── angular/           # Angular frontend
+│   ├── products/
+│   ├── orders/
+│   └── auth/
