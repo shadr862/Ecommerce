@@ -13,6 +13,12 @@ import { Router } from '@angular/router';
 })
 export class UserProfileComponent implements OnInit {
   orderedList: any;
+  user = {
+  fullName: localStorage.getItem('firstName') + " " + localStorage.getItem('lastName'),
+  bio: 'Hi there! Glad to have you here. Feel free to explore my profile.',
+  avatarUrl: 'https://i.pravatar.cc/150?img=3'
+};
+
 
   constructor(
     private orderService: OrderService,

@@ -30,6 +30,9 @@ export class AppNavComponent implements OnInit {
   showAllCategories = false;
   showDashboard = false;
   showProducts=false;
+  isAdmin=false;
+  isLoggedIn=false;
+  firstName ='';
 
   categories = [
     { name: 'Beauty', link: '/dashboard/category/beauty-products' },
@@ -49,7 +52,9 @@ export class AppNavComponent implements OnInit {
 
   ngOnInit(): void {
 
-
+    this.isLoggedIn=localStorage.getItem('isLoggedIn')==='true';
+    this.isAdmin=localStorage.getItem('isAdmin')==='true';
+    this.firstName=localStorage.getItem('firstName')!
     this.searchfilter.valueChanges.subscribe(value => {
       this.SearchService.setSearch(value || '');
       this.router.navigate(['/dashboard/search']);
@@ -82,7 +87,10 @@ export class AppNavComponent implements OnInit {
 
   logout() {
     this.authService.clearUser();
-
+    localStorage.clear();
+    this.isAdmin=false;
+    this.isLoggedIn=false;
+    this.firstName='';
     this.router.navigate(['/products']);
   }
 

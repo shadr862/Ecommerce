@@ -1,6 +1,6 @@
 <div class="sidenav-container" [class.sidebar-collapsed]="isCollapsed">
   <div class="sidenav-wrapper d-flex">
-    
+
     <!-- Sidebar -->
     <nav class="sidenav" [class.collapsed]="isCollapsed">
       <div class="toolbar">
@@ -8,14 +8,14 @@
       </div>
 
       <!-- Dashboard Section -->
-      <div class="category-toggle" (click)="toggleAllDashboard()">
+      <div *ngIf="isLoggedIn" class="category-toggle" (click)="toggleAllDashboard()">
         <i class="fas fa-tachometer-alt"></i>
         <span>Dashboard</span> ▾
       </div>
       <div *ngIf="showDashboard" class="category-list">
-        <a *ngIf="authService.isLoggedIn" routerLink="/dashboard/profile">User Profile</a>
-        <a *ngIf="authService.isAdmin" routerLink="/dashboard/user-list">User List</a>
-        <a *ngIf="authService.isAdmin" routerLink="/dashboard/orderedList">Order Confirmed List</a>
+        <a *ngIf="isLoggedIn" routerLink="/dashboard/profile">User Profile</a>
+        <a *ngIf="isAdmin" routerLink="/dashboard/user-list">User List</a>
+        <a *ngIf="isAdmin" routerLink="/dashboard/orderedList">Order Confirmed List</a>
       </div>
 
       <!-- Product Section -->
@@ -25,7 +25,7 @@
       </div>
       <div *ngIf="showProducts" class="category-list">
         <a routerLink="/dashboard/products">All Products</a>
-        <a routerLink="/dashboard/products/add">Add Product</a>
+        <a *ngIf="isAdmin" routerLink="/dashboard/products/add">Add Product</a>
       </div>
 
       <!-- Category Section -->
@@ -53,13 +53,14 @@
         </div>
 
         <div class="auth">
-          <span *ngIf="authService.isLoggedIn">Welcome,</span>
-          <a [routerLink]="'/dashboard/profile'" class="username">
-            <span *ngIf="authService.isLoggedIn">{{ authService.firstName }}</span>
+          <span *ngIf="isLoggedIn">Welcome,</span>
+          <a [routerLink]="'/dashboard/profile'" class="username" style="text-decoration: none;">
+            <span *ngIf="isLoggedIn">{{firstName}}</span>
           </a>
-          <button *ngIf="!authService.isLoggedIn" [routerLink]="'/login'">Login</button>
-          <button *ngIf="authService.isLoggedIn" (click)="logout()">Logout</button>
+          <button *ngIf="!isLoggedIn" [routerLink]="'/login'">Login</button>
+          <button *ngIf="isLoggedIn" (click)="logout()">Logout</button>
         </div>
+
       </header>
 
       <main class="content">

@@ -56,11 +56,7 @@ export class AuthService {
     this.lastName = '';
     this.userId= '';
 
-    localStorage.removeItem('isLoggedIn');
-    localStorage.removeItem('isAdmin');
-    localStorage.removeItem('firstName');
-    localStorage.removeItem('lastName');
-    localStorage.removeItem('userId');
+   localStorage.clear();
   }
 
 }
