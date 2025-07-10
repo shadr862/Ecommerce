@@ -22,8 +22,8 @@ A feature-rich e-commerce web application built with **Angular** and **ASP.NET C
 
 ### 📦 Order Management
 - Customer Order View
-- Admin Confirmed Orders
 - Order Detail View
+- Admin Confirmed Orders
 ![Order Placement](https://github.com/shadr862/Ecommerce/blob/main/images/order-placement.PNG)
 ![Order Detail](https://github.com/shadr862/Ecommerce/blob/main/images/order-detail.PNG)
 ![Confirmed Orders](https://github.com/shadr862/Ecommerce/blob/main/images/confirmed-orders.PNG)
