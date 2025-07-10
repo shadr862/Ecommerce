@@ -13,7 +13,7 @@
         <span>Dashboard</span> ▾
       </div>
       <div *ngIf="showDashboard" class="category-list">
-        <a *ngIf="isLoggedIn" routerLink="/dashboard/profile">User Profile</a>
+        <a *ngIf="isLoggedIn"  [routerLink]="['/dashboard/profile',this.userId]">User Profile</a>
         <a *ngIf="isAdmin" routerLink="/dashboard/user-list">User List</a>
         <a *ngIf="isAdmin" routerLink="/dashboard/orderedList">Order Confirmed List</a>
       </div>
@@ -54,7 +54,7 @@
 
         <div class="auth">
           <span *ngIf="isLoggedIn">Welcome,</span>
-          <a [routerLink]="'/dashboard/profile'" class="username" style="text-decoration: none;">
+          <a [routerLink]="['/dashboard/profile',this.userId]" class="username" style="text-decoration: none;">
             <span *ngIf="isLoggedIn">{{firstName}}</span>
           </a>
           <button *ngIf="!isLoggedIn" [routerLink]="'/login'">Login</button>

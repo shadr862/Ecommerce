@@ -33,6 +33,7 @@ export class AppNavComponent implements OnInit {
   isAdmin=false;
   isLoggedIn=false;
   firstName ='';
+  userId='';
 
   categories = [
     { name: 'Beauty', link: '/dashboard/category/beauty-products' },
@@ -55,6 +56,7 @@ export class AppNavComponent implements OnInit {
     this.isLoggedIn=localStorage.getItem('isLoggedIn')==='true';
     this.isAdmin=localStorage.getItem('isAdmin')==='true';
     this.firstName=localStorage.getItem('firstName')!
+    this.userId=localStorage.getItem('userId')!
     this.searchfilter.valueChanges.subscribe(value => {
       this.SearchService.setSearch(value || '');
       this.router.navigate(['/dashboard/search']);

@@ -3,10 +3,11 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/auth-service/auth.service';
 import { FormsModule } from '@angular/forms';
 import { UserfilterPipe } from "../custom-pipe/userfilter.pipe";
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-user-list',
-  imports: [CommonModule, FormsModule, UserfilterPipe],
+  imports: [CommonModule, FormsModule, UserfilterPipe,RouterModule],
   templateUrl: './user-list.component.html',
   styleUrl: './user-list.component.css'
 })

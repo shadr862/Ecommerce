@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/auth-service/auth.service';
 import { OrderService } from '../services/order-service/order.service';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-user-profile',
@@ -14,22 +14,28 @@ import { Router } from '@angular/router';
 export class UserProfileComponent implements OnInit {
   orderedList: any;
   user = {
-  fullName: localStorage.getItem('firstName') + " " + localStorage.getItem('lastName'),
-  bio: 'Hi there! Glad to have you here. Feel free to explore my profile.',
-  avatarUrl: 'https://i.pravatar.cc/150?img=3'
-};
+    fullName: localStorage.getItem('firstName') + " " + localStorage.getItem('lastName'),
+    bio: 'Hi there! Glad to have you here. Feel free to explore my profile.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=3'
+  };
 
 
   constructor(
     private orderService: OrderService,
     private authService: AuthService,
-    private router: Router
-  ) {}
+    private router: Router,
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit() {
-    this.orderService.getOrderListBYUserId(this.authService.userId).subscribe((data: any) => {
+    const id = this.route.snapshot.paramMap.get('id')!;
+    this.orderService.getOrderListBYUserId(id).subscribe((data: any) => {
       this.orderedList = data;
     });
+
+   this.authService.getRegisteredUser(id).subscribe((data)=>{
+       this.user.fullName=data.firstName+" "+data.lastName;
+    })
   }
 
   viewProductList(productList: any) {

@@ -25,7 +25,7 @@ export const routes: Routes = [
       { path: 'category', loadChildren: () => import('./category/category.routes').then(m => m.categoryRoutes) },
       { path: 'search', component: SearchProductComponent },
       { path: 'order', component: OrderPlacementComponent, canActivate: [canActivateGuard] },
-      { path: 'profile', component: UserProfileComponent, canActivate: [canActivateGuard] },
+      { path: 'profile/:id', component: UserProfileComponent, canActivate: [canActivateGuard] },
       { path: 'ordered-product-dispaly', component: OrderedProductDispalyComponent, canActivate: [canActivateGuard] },
       { path: 'orderedList', component: OrderConfirmedListComponent, canActivate: [canActivateAdminGuard] },
       { path: 'user-list', component: UserListComponent, canActivate: [canActivateAdminGuard] },

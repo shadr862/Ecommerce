@@ -48,6 +48,11 @@ export class AuthService {
     return this.http.delete(`https://localhost:44355/api/app/user/${id}`)
   }
 
+  getRegisteredUser(id: any)
+  {
+    return this.http.get<any>(`https://localhost:44355/api/app/user/${id}`)
+  }
+
 
   clearUser() {
     this.isLoggedIn = false;
