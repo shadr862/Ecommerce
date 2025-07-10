@@ -21,7 +21,7 @@ A feature-rich e-commerce web application built with **Angular** and **ASP.NET C
 - Review Product
 ![Add Product](https://github.com/shadr862/Ecommerce/blob/main/images/add-product.PNG)
 ![Edit Product](https://github.com/shadr862/Ecommerce/blob/main/images/edit-product.PNG)
-![Detail Product](https://github.com/shadr862/Ecommerce/blob/main/images/detail-product.PNG)
+![Detail Product](https://github.com/shadr862/Ecommerce/blob/main/images/detail-produc.PNG)
 ![Review Product](https://github.com/shadr862/Ecommerce/blob/main/images/review-product.PNG)
 
 ### 📦 Order Management
