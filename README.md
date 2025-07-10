@@ -17,8 +17,12 @@ A feature-rich e-commerce web application built with **Angular** and **ASP.NET C
 ### 🛍️ Product Management
 - Add Product (with Image Upload)
 - Edit / Delete Product
+- Detail product
+- Review Product
 ![Add Product](https://github.com/shadr862/Ecommerce/blob/main/images/add-product.PNG)
-![Edit Product](https://github.com/shadr862/Ecommerce/blob/main/images/edit-produc.PNG)
+![Edit Product](https://github.com/shadr862/Ecommerce/blob/main/images/edit-product.PNG)
+![Detail Product](https://github.com/shadr862/Ecommerce/blob/main/images/detail-product.PNG)
+![Review Product](https://github.com/shadr862/Ecommerce/blob/main/images/review-product.PNG)
 
 ### 📦 Order Management
 - Customer Order View
