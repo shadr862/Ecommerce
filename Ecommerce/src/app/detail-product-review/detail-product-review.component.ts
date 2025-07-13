@@ -66,7 +66,9 @@ export class DetailProductReviewComponent implements  OnInit {
   //Product management methods
   deleteProduct() {
     if (confirm('Are you sure you want to delete this product?')) {
-      this.ProductService.deleteProduct(this.productId)
+      this.ProductService.deleteProduct(this.productId).subscribe(()=>{
+         this.router.navigateByUrl('/dashboard/products');
+      })
     }
   }
 
