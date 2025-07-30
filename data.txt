@@ -1,0 +1,471 @@
+1-10:
+[
+  {
+    "title": "Essence Mascara Lash Princess",
+    "description": "Popular mascara known for volumizing and lengthening effects.it is very much popular.",
+    "category": "beauty",
+    "price": 9.99,
+    "stock": 17,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+  },
+  {
+    "title": "Eyeshadow Palette with Mirror",
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks.",
+    "category": "beauty",
+    "price": 19.99,
+    "stock": 12,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp"
+  },
+  {
+    "title": "Powder Canister",
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine.",
+    "category": "beauty",
+    "price": 14.99,
+    "stock": 23,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp"
+  },
+  {
+    "title": "Red Lipstick",
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    "category": "beauty",
+    "price": 12.99,
+    "stock": 30,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp"
+  },
+  {
+    "title": "Red Nail Polish",
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+    "category": "beauty",
+    "price": 8.99,
+    "stock": 30,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp"
+  },
+  {
+    "title": "Calvin Klein CK One",
+    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+    "category": "fragrances",
+    "price": 49.99,
+    "stock": 23,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp"
+  },
+  {
+    "title": "Chanel Coco Noir Eau De",
+    "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+    "category": "fragrances",
+    "price": 129.99,
+    "stock": 12,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+  },
+  {
+    "title": "Dior J'adore",
+    "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+    "category": "fragrances",
+    "price": 89.99,
+    "stock": 12,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp"
+  },
+  {
+    "title": "Dolce Shine Eau de",
+    "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+    "category": "fragrances",
+    "price": 69.99,
+    "stock": 11,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp"
+  },
+  {
+    "title": "Gucci Bloom Eau de",
+    "description": "Floral fragrance with tuberose, jasmine, and Rangoon creeper. Romantic and modern. Long-lasting scent that lingers beautifully throughout the day.",
+    "category": "fragrances",
+    "price": 79.99,
+    "stock": 20,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp"
+  }
+]
+
+11-20:
+[
+  {
+    "title": "Annibale Colombo Bed",
+    "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+    "category": "furniture",
+    "price": 1899.99,
+    "stock": 4,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"
+  },
+  {
+    "title": "Annibale Colombo Sofa",
+    "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+    "category": "furniture",
+    "price": 2499.99,
+    "stock": 6,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
+  },
+  {
+    "title": "Bedside Table African Cherry",
+    "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+    "category": "furniture",
+    "price": 299.99,
+    "stock": 9,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"
+  },
+  {
+    "title": "Knoll Saarinen Executive Conference Chair",
+    "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+    "category": "furniture",
+    "price": 499.99,
+    "stock": 7,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"
+  },
+  {
+    "title": "Wooden Bathroom Sink With Mirror",
+    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+    "category": "furniture",
+    "price": 799.99,
+    "stock": 5,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"
+  },
+  {
+    "title": "Apple",
+    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+    "category": "groceries",
+    "price": 1.99,
+    "stock": 99,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp"
+  },
+  {
+    "title": "Beef Steak",
+    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+    "category": "groceries",
+    "price": 12.99,
+    "stock": 5,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp"
+  },
+  {
+    "title": "Cat Food",
+    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+    "category": "groceries",
+    "price": 8.99,
+    "stock": 9,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp"
+  },
+  {
+    "title": "Chicken Meat",
+    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+    "category": "groceries",
+    "price": 9.99,
+    "stock": 8,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp"
+  },
+  {
+    "title": "Cooking Oil",
+    "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+    "category": "groceries",
+    "price": 4.99,
+    "stock": 2,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp"
+  }
+]
+
+21-29:
+[
+  {
+    "title": "Cucumber",
+    "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+    "category": "groceries",
+    "price": 1.49,
+    "stock": 84,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp"
+  },
+  {
+    "title": "Dog Food",
+    "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+    "category": "groceries",
+    "price": 10.99,
+    "stock": 71,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp"
+  },
+  {
+    "title": "Eggs",
+    "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+    "category": "groceries",
+    "price": 2.99,
+    "stock": 9,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp"
+  },
+  {
+    "title": "Fish Steak",
+    "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+    "category": "groceries",
+    "price": 14.99,
+    "stock": 74,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp"
+  },
+  {
+    "title": "Green Bell Pepper",
+    "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+    "category": "groceries",
+    "price": 1.29,
+    "stock": 33,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp"
+  },
+  {
+    "title": "Green Chili Pepper",
+    "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+    "category": "groceries",
+    "price": 0.99,
+    "stock": 3,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp"
+  },
+  {
+    "title": "Honey Jar",
+    "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+    "category": "groceries",
+    "price": 6.99,
+    "stock": 34,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp"
+  },
+  {
+    "title": "Ice Cream",
+    "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+    "category": "groceries",
+    "price": 5.49,
+    "stock": 27,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp"
+  },
+  {
+    "title": "Juice",
+    "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+    "category": "groceries",
+    "price": 3.99,
+    "stock": 50,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp"
+  }
+]
+30-40:
+[
+  {
+    "title": "Kiwi",
+    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+    "category": "groceries",
+    "price": 2.49,
+    "stock": 99,
+    "quantity": 1,
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp"
+  },
+  {
+    "title": "Backpack",
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve.",
+    "category": "men's clothing",
+    "price": 109.95,
+    "stock": 120,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "title": "T-Shirts",
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, lightweight & soft fabric. It is very soft and well structured. Perfect for casual wear or layering in any season.",
+    "category": "men's clothing",
+    "price": 22.3,
+    "stock": 259,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+  },
+  {
+    "title": "Mens Cotton Jacket",
+    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+    "category": "men's clothing",
+    "price": 55.99,
+    "stock": 500,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+  },
+  {
+    "title": "Mens Casual Slim Fit",
+    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+    "category": "men's clothing",
+    "price": 15.99,
+    "stock": 430,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+  },
+  {
+    "title": "Legends Naga Gold & Silver  Bracelet",
+    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+    "category": "jewelery",
+    "price": 695,
+    "stock": 400,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+  },
+  {
+    "title": "Solid Gold Petite Micropave",
+    "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    "category": "jewelery",
+    "price": 168,
+    "stock": 70,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+  },
+  {
+    "title": "White Gold Plated Princess",
+    "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+    "category": "jewelery",
+    "price": 9.99,
+    "stock": 400,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+  },
+  {
+    "title": "Pierced Owl Rose Gold Plated",
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "category": "jewelery",
+    "price": 10.99,
+    "stock": 100,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+  },
+  {
+    "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0",
+    "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+    "category": "electronics",
+    "price": 64,
+    "stock": 203,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+  },
+  {
+    "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+    "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+    "category": "electronics",
+    "price": 109,
+    "stock": 470,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+  }
+]
+41-50:
+[
+  {
+    "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+    "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+    "category": "electronics",
+    "price": 109,
+    "stock": 319,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+  },
+  {
+    "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+    "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+    "category": "electronics",
+    "price": 114,
+    "stock": 400,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+  },
+  {
+    "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+    "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+    "category": "electronics",
+    "price": 599,
+    "stock": 250,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+  },
+  {
+    "title": "Samsung 49-Inch Curved Gaming Monitor",
+    "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic.",
+    "category": "electronics",
+    "price": 999.99,
+    "stock": 140,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+  },
+  {
+    "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+    "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric",
+    "category": "women's clothing",
+    "price": 56.99,
+    "stock": 235,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+  },
+  {
+    "title": "Leather Moto Biker Jacket",
+    "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER)",
+    "category": "women's clothing",
+    "price": 29.95,
+    "stock": 340,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+  },
+  {
+    "title": "Rain Jacket",
+    "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded.",
+    "category": "women's clothing",
+    "price": 39.99,
+    "stock": 679,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+  },
+  {
+    "title": "Women's Solid Short Sleeve",
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, lightweight & soft fabric. It is very soft and well structured. Perfect for casual wear or layering in any season. 95% RAYON 5% SPANDEX, Made in USA or Imported. Do Not Bleach, Lightweight fabric with great stretch for comfort.",
+    "category": "women's clothing",
+    "price": 9.85,
+    "stock": 130,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+  },
+  {
+    "title": "Opna Women's Short Sleeve Moisture",
+    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, lightweight & soft fabric. It is very soft and well structured. Perfect for casual wear or layering in any season. 95% RAYON 5% SPANDEX, Made in USA or Imported.Do Not Bleach, Lightweight fabric with great stretch for comfort",
+    "category": "women's clothing",
+    "price": 7.95,
+    "stock": 146,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+  },
+  {
+    "title": "T Shirt Casual",
+    "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees,Spring,Summer,Autumn,Winter.it will be comfortable. it added more fashion",
+    "category": "women's clothing",
+    "price": 12.99,
+    "stock": 145,
+    "quantity": 1,
+    "thumbnail": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+  }
+]
+
+
+
+
